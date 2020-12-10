@@ -1,0 +1,26 @@
+.find-contact{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.find-contact-img{
+    // width: 50%;
+    background-image: url(/img/bigstock-Football.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.find-contact-number-container{
+    top: 211px;
+    right: -84px;
+}
+
+.find-contact-block{
+    padding-top: 255px;
+    padding-bottom: 110px;
+    padding-right: 125px;
+    position: relative;
+    box-sizing: border-box;
+}
+

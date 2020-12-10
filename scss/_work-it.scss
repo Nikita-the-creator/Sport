@@ -1,0 +1,18 @@
+.work-it{
+    display: flex;
+}
+
+.work-it-img{
+    background-image: url(/img/football-players.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.work-it-block{
+    padding-top: 255px;
+    padding-bottom: 110px;
+    padding-left: 125px;
+    position: relative;
+    box-sizing: border-box;
+}

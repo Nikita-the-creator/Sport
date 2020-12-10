@@ -1,0 +1,140 @@
+.connection-container{
+    display: flex;
+}
+
+.connection-item-1{
+    width: 50%;
+    position: relative;
+}
+
+.connection-image{
+    background-image: url(/img/footballer.png);
+    background-repeat: no-repeat;
+    width: 602px;
+    height: 950px;
+    position: absolute;
+    top: 30px;
+    right: 80px;
+    z-index: 2;
+}
+
+.connection-line{  
+    background-image: url(/img/connection-line.svg);
+    background-repeat: no-repeat;
+    width: 582px;
+    height: 668px;
+    position: absolute;
+    top: 70px;
+    right: 122px;
+}
+
+.connection-plus1{
+    background-image: url(/img/plus1.png);
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 154px;
+    right: 587px;
+}
+
+.connection-plus2{
+    background-image: url(/img/plus2.png);
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 162px;
+    right: 568px;
+}
+
+.connection-item-2{
+    width: 50%;
+    padding-bottom: 55px;
+}
+
+.caption-connection{
+    color: #e7e7e7;
+    font-family: "Proxima Nova";
+    font-size: 90px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 85px;
+    line-height: 70px;
+}
+
+.section-caption-container{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.section-number{
+    margin-right: 10px;
+}
+
+.number{
+    margin: 0px;
+}
+
+.underline{
+    width: 21px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #5e42b0;
+}
+
+.caption-container{
+    color: #c1c1c1;
+    font-family: "Proxima Nova";
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section-text{
+    color: #000000;
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    font-weight: 400;   
+}
+
+.collaboration-container{
+    display: flex;
+    background-color: #f5f4fa;
+}
+
+.collaboration-item-1{
+    width: 50%;
+}
+
+.collaboration-item-2{
+    width: 50%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.growth-container{
+    display: flex;
+    padding-top: 60px;
+    background-color: #5e42b0;
+    padding-bottom: 102px;
+}
+
+.growth-item-1{
+    width: 50%;
+}
+
+.growth-item-2{
+    width: 50%;
+}
+
+.athlets .connection-item-2-text, .athlets .collaboration-item-2-text, .athlets .growth-item-2-text {
+    max-width: 675px;
+}
+
+.players .connection-item-2-text, .players .collaboration-item-2-text, .players .growth-item-2-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 615px;
+    margin-left: auto;
+}

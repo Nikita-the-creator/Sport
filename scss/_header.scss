@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+}
+
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 9px;
+    box-sizing: border-box;
+}
+
+.athlets-320px{
+    display: none;
+}
+
+.players-320px{
+    display: none;
+}
+
+.header-background{
+    background-image: url(/img/header-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 310px;
+}
+
+.logo{
+    background: url(/img/logo.png) no-repeat center;
+}
+
+.header-top__item2{
+    width: 189px;
+    height: 33px;
+    padding-top: 54px;
+}
+
+.header-top__item1{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-top: 37px;
+    font-family: "Proxima Nova";
+}
+
+// .header-main-caption-container{
+    
+// }
+
+.header-main-caption-1 h1,
+.header-main-caption-2 h1{
+    color: #ffffff;
+    font-size: 90px;
+    font-weight: 700;
+    font-family: "Proxima Nova ExtraBold";
+    margin: 0;
+    position: relative;
+}
+
+.header-main-caption-1 h1{
+    z-index: 1;
+    &::before{
+        content: '';
+        display: block;
+        position: absolute;
+        width: 254px;
+        height: 317px;
+        background-image: url(/img/line-media1730-athlets.svg);
+        background-repeat: no-repeat;
+        top: -93px;
+        right: 0px;
+        z-index: -1;
+    }
+}
+
+.header-main-caption-1{
+    display: flex;
+    justify-content: flex-start;
+    letter-spacing: 5px;
+}
+
+.header-main-caption-2{
+    display: flex;
+    justify-content: flex-end;
+    letter-spacing: 5px;
+}
+
+.header-main-menu{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 180px;
+}
+
+.header-menu-item:first-child{
+    margin-left: 0px;
+}
+
+.header-menu-item{
+    color: #9071ea;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 45px;
+}
+
+.header-bottom{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 110px;
+}
+
+.app-link__appstore,
+.app-link__playmarket{
+    width: 311px;
+    height: 77px;
+    background-color: #5e42b0;
+    border-radius:38px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.app-icon-1{
+    background-image: url(/img/Icon-Apple.png);
+    background-repeat: no-repeat;
+    width: 33px;
+    height: 37px;
+    margin-right: 28px;
+    margin-left: 43px;
+}
+
+.app-icon-2{
+    background-image: url(/img/Icon-Google_Play.png);
+    background-repeat: no-repeat;
+    width: 33px;
+    height: 37px;
+    margin-right: 28px;
+    margin-left: 43px;
+}
+
+.app-text-1{
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.app-text-2{
+    font-size: 14px;
+    font-family: "Proxima Nova - Semibold";
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0px;
+}

@@ -1,0 +1,108 @@
+.download-app{
+    background-image: url(/img/footer-img.png);
+    background-color:#0a0e34;
+    padding-top: 240px;
+}
+
+.download-app-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.download-app-caption-container{
+    margin-left: 35px;
+}
+
+.download-app-caption-1{
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-size: 90px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.download-app-caption-2{
+    color: #a496ca;
+    font-size: 36px;
+    font-family: "Proxima Nova";
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.download-app-logo{
+    background-image: url(/img/Artwork.png);
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 137px;
+}
+
+.app-link-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bottom{
+    margin-top: 195px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: rgba(10, 14, 52, 0.6);
+}
+
+.footer-container{
+    max-width: 1755px;
+    padding: 0 55px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-networks{
+    display: flex;
+    justify-content: center;
+    margin-left: 86px;
+    align-items: center;
+}
+
+.social-item{
+    margin-left: 40px;
+}
+
+.facebook{
+    background: url(/img/facebook1.png);
+    width: 17px;
+    height: 31px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.twitter{
+    background: url(/img/twitter.png);
+    width: 29px;
+    height: 25px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.instagram{
+    background: url(/img/instagram.png);
+    width: 27px;
+    height: 27px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contact-us{
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+
+}

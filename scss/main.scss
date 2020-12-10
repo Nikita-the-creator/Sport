@@ -1,0 +1,492 @@
+@import "header";
+
+@import "athlets";
+
+@import "players";
+
+@import "be-active";
+
+@import "find-contact";
+
+@import "work-it";
+
+@import "footer";
+
+@media(max-width: 1550px) {
+    .container{
+        margin: 0 auto;
+        padding:0px 7px;
+    }
+
+    .header {
+        padding-top: 50px;
+        padding-bottom: 90px;
+    }
+
+    .header-bottom{
+        padding-bottom: 0px;
+    }
+
+    .header-main-caption-1 h1, .header-main-caption-2 h1{
+        font-size: 64px;
+    }
+
+    .header-main-caption-1 h1{
+        margin-left:15%;
+    }
+
+    .header-main-caption-2 h1{
+        padding-left: 168px;
+        width: 60%;
+    }
+
+    .header-main-menu{
+        margin-top: 164px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 125px;
+    }
+
+    .header-menu-item:first-child {
+        margin-left: -40px;
+    }
+
+    .header-menu-item{
+        padding-left: 34px;
+        margin-left: 14px;
+    }
+
+    .header-main-caption-1 h1::before{
+        top: -103px;
+        right: 54px;
+    }
+
+    .athlets .connection-image{
+        width: 419px;
+        height: 664px;
+        top: 94px;
+        right: 15px;
+        background-size: contain;
+    }
+
+    .athlets .connection-line{
+        top: 105px;
+        right: 70px;
+    }
+
+    .athlets .connection-plus1{
+        top: 98px;
+        right: 309px;
+    }
+    
+    .athlets .connection-plus2{
+        right: 292px;
+        top: 115px;
+    }
+
+    .athlets .connection-item-2-text{
+        padding-right: 20px;
+    }
+
+    .athlets .collaboration-item-2-text{
+        padding-right: 20px;
+    }
+
+    .athlets .growth-item-2-text{
+        padding-right: 20px;
+    }
+
+    .players .connection-image{
+        width: 638px;
+        height: 681px;
+        top: 46px;
+        right: -601px;
+        background-size: contain;
+    }
+
+    .players .connection-line{
+        top: 285px;
+        right: -349px;
+    }
+
+    .players .connection-item-2-text, .collaboration-item-2-text, .growth-item-2-text{
+        padding-left: 20px;
+    }
+
+
+    .be-active, .find-contact, .work-it{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-container{
+        width: 100%;
+        height: 511px;
+    }
+
+    .be-active-container, .find-contact-block, .work-it-block{
+        width: 100%;
+        padding-top: 63px;
+        padding-left: 57px;
+    }
+
+    .be-active-number-container, .work-it-number-container {
+        top: -102px;
+        left: 61px;
+    }
+
+    .find-contact-number-container{
+        top: -102px;
+        left: 61px;
+    }
+
+    .download-app{
+        padding-top: 130px;
+    }
+
+    .download-app-container{
+        flex-direction: column;
+    }
+
+    .download-app-logo{
+        margin-bottom: 76px;
+    }
+
+    .footer-bottom{
+        padding-top: 21px;
+        padding-bottom: 21px;
+        margin-top: 132px;
+    }
+    
+    .footer-container{
+        justify-content: center;
+    }
+
+    .social-networks{
+        margin-left: 4px;
+    }
+
+    .footer-logo{
+        display: none;
+    }
+
+    .contact-us{
+        display: none;
+    }
+}
+
+@media (max-width: 767px){
+    body{
+        min-width: 320px;
+    }
+
+    .container{
+        margin: 0 auto;
+        display: flex;
+        flex-direction:column;
+    }
+
+    .athlets{
+        display: none;
+    }
+
+    .players{
+        display: none;
+    }
+
+    .header{
+        padding-bottom: 20px;   
+    }
+
+    .header-top{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 130px;
+    }
+
+    .header-top__item1{
+        display: none;
+    }
+
+    .header-top__item2{
+        width: 137px;
+        height: 24px;
+        background-size: contain;
+    }
+
+    .header-main-caption-1 , .header-main-caption-2 {
+        font-size: 32px;
+        display: flex;
+        justify-content: center;
+        letter-spacing: 1.6px;
+    }   
+
+    .header-main-caption-1 h1{
+        margin-bottom: 20px;
+        font-size: 32px;
+        margin-right: 17%;
+        margin-left: 0;
+    }
+
+    .header-main-caption-2 h1{
+        margin-left: 17%;
+        padding-left: 0px;
+        font-size: 32px;
+        margin-right: 0;
+        width: 256px;
+    }
+
+    .header-main-caption-1 h1::before{
+        width: 142px;
+        height: 176px;
+        top: -12px;
+        right: 11px;
+        background-size: contain;
+    }
+
+    .header-main-menu{
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .header-menu-item:first-child{
+        margin-left: 0px;
+    }
+
+    .header-menu-item{
+        font-size: 12px;
+        padding-left: 6px;
+    }
+
+    .app-link__appstore, .app-link__playmarket {
+        width: 142px;
+        height: 39px;
+    }
+
+    .app-icon-1 {
+        width: 15px;
+        background-size: contain;
+        height: 16px;
+        margin-right: 14px;
+        margin-left: 22px;
+    }
+
+    .app-icon-2 {
+        width: 15px;
+        background-size: contain;
+        height: 16px;
+        margin-right: 14px;
+        margin-left: 22px;
+    }
+
+    .app-link__appstore, .app-text-1, .app-text-2{
+        font-size: 8px;
+    }
+
+    .app-link__appstore, .app-link__playmarket{
+        margin-left: 13px;
+    }
+
+    .athlets-320px, .players-320px{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .athlets-320px .fotorama{
+        display: flex;
+        justify-content: center;
+    }
+
+    .players-320px .fotorama{
+        display: flex;
+        justify-content: center;
+    }
+
+    .athlets-caption , .players-caption{
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 70px;
+        color: #e7e7e7;
+        margin-top: 0px;
+        font-size: 50px;
+        padding-left: 15px;
+    }
+
+    .images-container{
+        margin-top: 25px;
+        margin-bottom: 245px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        max-width: 335px;
+    }
+
+    .images-container__image1{
+        background-image: url(/img/footballer.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 192px;
+        height: 281px;
+        position: absolute;
+        top: 75px;
+        left: 63px;
+        z-index: 1;
+    } 
+
+    .players-320px .images-container__image1{
+        background-image: url(/img/basketbolist.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 248px;
+        height: 281px;
+        position: absolute;
+        top: 75px;
+        left: 2px;
+        z-index: 1;
+    }
+
+    .images-container__line{
+        background-image: url(/img/connection-line.svg);
+        background-repeat: no-repeat;
+        width: 185px;
+        height: 200px;
+        position: absolute;
+        top: 90px;
+        left: 55px;
+        background-size:contain;
+    }
+
+    .fotorama-container {
+        background-color: #f5f4f9;
+    }
+
+    .collaboration-item-2, .connection-item-2, .growth-item-2{
+        width: 100%;
+        padding: 0 20px;
+        max-width: 400px;
+        box-sizing: border-box;
+    }
+
+    .athlets-320px .fotorama__html{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .players-320px .fotorama__html{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .caption-container{
+        font-size: 28px;
+    }
+
+    .section-text{
+        font-size: 15px;
+    }
+
+    .section-caption-container{
+        align-items: center;
+    }
+
+    .athlets-320px .number {
+        color: #000000;
+        font-family: "Proxima Nova ExtraBold";
+        font-size: 14px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .players-320px .number {
+        color: #000000;
+        font-family: "Proxima Nova ExtraBold";
+        font-size: 14px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .img-container{
+        height: 351px;
+    }
+
+    .be-active-container, .find-contact-block, .work-it-block {
+        padding-top: 35px;
+        padding-bottom: 50px;
+    }
+
+    .be-active-caption, .find-contact-caption, .work-it-caption{
+        font-size: 28px;
+    }
+
+    .work-it-number-container, .be-active-number-container, .find-contact-number-container{
+        width: 70px;
+        height: 70px;
+        top: -44px;
+    }
+
+    .be-active-number__number, .find-contact-number__number, .work-it-number__number{
+        font-size: 14px;
+    }
+
+    .be-active-text, .find-contact-text, .work-it-text{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 400px;
+    }
+
+    .download-app{
+        padding-top: 90px;
+    }
+
+    .download-app-caption-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .download-app-logo{
+        width: 73px;
+        height: 78px;
+        background-size: contain;
+    }
+
+    .download-app-caption-1{
+        font-size: 34px;
+    }
+
+    .download-app-caption-2{
+        font-size: 15px;
+    }
+
+    .download-app-container{
+        margin-bottom: 80px;
+    }
+
+    .facebook{
+        width: 10px;
+        height: 18px;
+        background-size: contain;
+    }
+
+    .twitter{
+        width: 18px;
+        height: 15px;
+        background-size: contain;
+    }
+
+    .instagram{
+        width: 17px;
+        height: 17px;
+        background-size: contain;
+    }
+
+    .social-networks{
+        margin-left: -27px;
+    }
+}

@@ -1,0 +1,1175 @@
+/* line 1, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
+body {
+  margin: 0;
+}
+
+/* line 5, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 9px;
+  box-sizing: border-box;
+}
+
+/* line 12, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
+.athlets-320px {
+  display: none;
+}
+
+/* line 16, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
+.players-320px {
+  display: none;
+}
+
+/* line 20, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
+.header-background {
+  background-image: url(/img/header-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* line 28, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 310px;
+}
+
+/* line 34, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
+.logo {
+  background: url(/img/logo.png) no-repeat center;
+}
+
+/* line 38, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
+.header-top__item2 {
+  width: 189px;
+  height: 33px;
+  padding-top: 54px;
+}
+
+/* line 44, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
+.header-top__item1 {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding-top: 37px;
+  font-family: "Proxima Nova";
+}
+
+/* line 57, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
+.header-main-caption-1 h1,
+.header-main-caption-2 h1 {
+  color: #ffffff;
+  font-size: 90px;
+  font-weight: 700;
+  font-family: "Proxima Nova ExtraBold";
+  margin: 0;
+  position: relative;
+}
+
+/* line 67, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
+.header-main-caption-1 h1 {
+  z-index: 1;
+}
+
+/* line 69, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
+.header-main-caption-1 h1::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 254px;
+  height: 317px;
+  background-image: url(/img/line-media1730-athlets.svg);
+  background-repeat: no-repeat;
+  top: -93px;
+  right: 0px;
+  z-index: -1;
+}
+
+/* line 83, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
+.header-main-caption-1 {
+  display: flex;
+  justify-content: flex-start;
+  letter-spacing: 5px;
+}
+
+/* line 89, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
+.header-main-caption-2 {
+  display: flex;
+  justify-content: flex-end;
+  letter-spacing: 5px;
+}
+
+/* line 95, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
+.header-main-menu {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 180px;
+}
+
+/* line 101, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
+.header-menu-item:first-child {
+  margin-left: 0px;
+}
+
+/* line 105, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
+.header-menu-item {
+  color: #9071ea;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 45px;
+}
+
+/* line 115, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
+.header-bottom {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 110px;
+}
+
+/* line 121, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
+.app-link__appstore,
+.app-link__playmarket {
+  width: 311px;
+  height: 77px;
+  background-color: #5e42b0;
+  border-radius: 38px;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+}
+
+/* line 132, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
+.app-icon-1 {
+  background-image: url(/img/Icon-Apple.png);
+  background-repeat: no-repeat;
+  width: 33px;
+  height: 37px;
+  margin-right: 28px;
+  margin-left: 43px;
+}
+
+/* line 141, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
+.app-icon-2 {
+  background-image: url(/img/Icon-Google_Play.png);
+  background-repeat: no-repeat;
+  width: 33px;
+  height: 37px;
+  margin-right: 28px;
+  margin-left: 43px;
+}
+
+/* line 150, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
+.app-text-1 {
+  color: #ffffff;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+/* line 159, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
+.app-text-2 {
+  font-size: 14px;
+  font-family: "Proxima Nova - Semibold";
+  color: #ffffff;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+/* line 1, ../Hilel  Basic homework/Lesson 14/scss/_athlets.scss */
+.connection-container {
+  display: flex;
+}
+
+/* line 5, ../Hilel  Basic homework/Lesson 14/scss/_athlets.scss */
+.connection-item-1 {
+  width: 50%;
+  position: relative;
+}
+
+/* line 10, ../Hilel  Basic homework/Lesson 14/scss/_athlets.scss */
+.connection-image {
+  background-image: url(/img/footballer.png);
+  background-repeat: no-repeat;
+  width: 602px;
+  height: 950px;
+  position: absolute;
+  top: 30px;
+  right: 80px;
+  z-index: 2;
+}
+
+/* line 21, ../Hilel  Basic homework/Lesson 14/scss/_athlets.scss */
+.connection-line {
+  background-image: url(/img/connection-line.svg);
+  background-repeat: no-repeat;
+  width: 582px;
+  height: 668px;
+  position: absolute;
+  top: 70px;
+  right: 122px;
+}
+
+/* line 31, ../Hilel  Basic homework/Lesson 14/scss/_athlets.scss */
+.connection-plus1 {
+  background-image: url(/img/plus1.png);
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 154px;
+  right: 587px;
+}
+
+/* line 41, ../Hilel  Basic homework/Lesson 14/scss/_athlets.scss */
+.connection-plus2 {
+  background-image: url(/img/plus2.png);
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 162px;
+  right: 568px;
+}
+
+/* line 51, ../Hilel  Basic homework/Lesson 14/scss/_athlets.scss */
+.connection-item-2 {
+  width: 50%;
+  padding-bottom: 55px;
+}
+
+/* line 56, ../Hilel  Basic homework/Lesson 14/scss/_athlets.scss */
+.caption-connection {
+  color: #e7e7e7;
+  font-family: "Proxima Nova";
+  font-size: 90px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 85px;
+  line-height: 70px;
+}
+
+/* line 66, ../Hilel  Basic homework/Lesson 14/scss/_athlets.scss */
+.section-caption-container {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+/* line 71, ../Hilel  Basic homework/Lesson 14/scss/_athlets.scss */
+.section-number {
+  margin-right: 10px;
+}
+
+/* line 75, ../Hilel  Basic homework/Lesson 14/scss/_athlets.scss */
+.number {
+  margin: 0px;
+}
+
+/* line 79, ../Hilel  Basic homework/Lesson 14/scss/_athlets.scss */
+.underline {
+  width: 21px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #5e42b0;
+}
+
+/* line 86, ../Hilel  Basic homework/Lesson 14/scss/_athlets.scss */
+.caption-container {
+  color: #c1c1c1;
+  font-family: "Proxima Nova";
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* line 94, ../Hilel  Basic homework/Lesson 14/scss/_athlets.scss */
+.section-text {
+  color: #000000;
+  font-family: "Proxima Nova";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* line 101, ../Hilel  Basic homework/Lesson 14/scss/_athlets.scss */
+.collaboration-container {
+  display: flex;
+  background-color: #f5f4fa;
+}
+
+/* line 106, ../Hilel  Basic homework/Lesson 14/scss/_athlets.scss */
+.collaboration-item-1 {
+  width: 50%;
+}
+
+/* line 110, ../Hilel  Basic homework/Lesson 14/scss/_athlets.scss */
+.collaboration-item-2 {
+  width: 50%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* line 116, ../Hilel  Basic homework/Lesson 14/scss/_athlets.scss */
+.growth-container {
+  display: flex;
+  padding-top: 60px;
+  background-color: #5e42b0;
+  padding-bottom: 102px;
+}
+
+/* line 123, ../Hilel  Basic homework/Lesson 14/scss/_athlets.scss */
+.growth-item-1 {
+  width: 50%;
+}
+
+/* line 127, ../Hilel  Basic homework/Lesson 14/scss/_athlets.scss */
+.growth-item-2 {
+  width: 50%;
+}
+
+/* line 131, ../Hilel  Basic homework/Lesson 14/scss/_athlets.scss */
+.athlets .connection-item-2-text, .athlets .collaboration-item-2-text, .athlets .growth-item-2-text {
+  max-width: 675px;
+}
+
+/* line 135, ../Hilel  Basic homework/Lesson 14/scss/_athlets.scss */
+.players .connection-item-2-text, .players .collaboration-item-2-text, .players .growth-item-2-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 615px;
+  margin-left: auto;
+}
+
+/* line 1, ../Hilel  Basic homework/Lesson 14/scss/_players.scss */
+.players .collaboration-container {
+  background-color: #f5f5f7;
+}
+
+/* line 5, ../Hilel  Basic homework/Lesson 14/scss/_players.scss */
+.players .growth-container {
+  background-color: #0a0e34;
+}
+
+/* line 9, ../Hilel  Basic homework/Lesson 14/scss/_players.scss */
+.players .collaboration-item-2-text {
+  padding-top: 60px;
+  padding-bottom: 55px;
+}
+
+/* line 14, ../Hilel  Basic homework/Lesson 14/scss/_players.scss */
+.players .number {
+  color: #9173e6;
+}
+
+/* line 18, ../Hilel  Basic homework/Lesson 14/scss/_players.scss */
+.players .connection-image {
+  background-image: url(/img/basketbolist.png);
+  top: -44px;
+  width: 991px;
+  height: 815px;
+  right: -856px;
+}
+
+/* line 26, ../Hilel  Basic homework/Lesson 14/scss/_players.scss */
+.players .connection-plus1 {
+  top: 27px;
+  right: -156px;
+}
+
+/* line 31, ../Hilel  Basic homework/Lesson 14/scss/_players.scss */
+.players .connection-plus2 {
+  top: 39px;
+  right: -186px;
+}
+
+/* line 36, ../Hilel  Basic homework/Lesson 14/scss/_players.scss */
+.connection-line1 {
+  background-image: url(/img/connection-line.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 279px;
+  height: 321px;
+  position: absolute;
+  top: 285px;
+  right: -349px;
+}
+
+/* line 47, ../Hilel  Basic homework/Lesson 14/scss/_players.scss */
+.connection-line2 {
+  background-image: url(/img/connection-line.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 279px;
+  height: 321px;
+  position: absolute;
+  top: 11px;
+  right: -583px;
+}
+
+/* line 58, ../Hilel  Basic homework/Lesson 14/scss/_players.scss */
+.players {
+  overflow: hidden;
+}
+
+/* line 62, ../Hilel  Basic homework/Lesson 14/scss/_players.scss */
+.growth-container-text {
+  color: #f5f5f7;
+}
+
+/* line 1, ../Hilel  Basic homework/Lesson 14/scss/_be-active.scss */
+.be-active {
+  display: flex;
+}
+
+/* line 5, ../Hilel  Basic homework/Lesson 14/scss/_be-active.scss */
+.be-active-img {
+  background-image: url(/img/shutterstock.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 12, ../Hilel  Basic homework/Lesson 14/scss/_be-active.scss */
+.img-container {
+  width: 50%;
+}
+
+/* line 16, ../Hilel  Basic homework/Lesson 14/scss/_be-active.scss */
+.be-active-container {
+  padding-top: 255px;
+  padding-bottom: 110px;
+  padding-left: 125px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 24, ../Hilel  Basic homework/Lesson 14/scss/_be-active.scss */
+.be-active-container {
+  width: 50%;
+}
+
+/* line 28, ../Hilel  Basic homework/Lesson 14/scss/_be-active.scss */
+.be-active-caption, .find-contact-caption, .work-it-caption {
+  color: #c1c1c1;
+  font-family: "Proxima Nova";
+  font-size: 90px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* line 36, ../Hilel  Basic homework/Lesson 14/scss/_be-active.scss */
+.be-active-text, .find-contact-text, .work-it-text {
+  max-width: 295px;
+  margin-top: 110px;
+  margin-bottom: 80px;
+  color: #000000;
+  font-family: "Proxima Nova";
+  font-weight: 400;
+  font-size: 24px;
+}
+
+/* line 46, ../Hilel  Basic homework/Lesson 14/scss/_be-active.scss */
+.be-active-button, .find-contact-button, .work-it-button {
+  width: 22px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #5e42b0;
+}
+
+/* line 53, ../Hilel  Basic homework/Lesson 14/scss/_be-active.scss */
+.be-active-number-container, .work-it-number-container {
+  top: 211px;
+  left: -84px;
+}
+
+/* line 58, ../Hilel  Basic homework/Lesson 14/scss/_be-active.scss */
+.be-active-number-container, .find-contact-number-container, .work-it-number-container {
+  width: 168px;
+  height: 155px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #5e42b0;
+  position: absolute;
+}
+
+/* line 69, ../Hilel  Basic homework/Lesson 14/scss/_be-active.scss */
+.be-active-number__underline, .find-contact-number__underline, .work-it-number__underline {
+  width: 22px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #8e7bc8;
+}
+
+/* line 76, ../Hilel  Basic homework/Lesson 14/scss/_be-active.scss */
+.be-active-number__number, .find-contact-number__number, .work-it-number__number {
+  color: #f5f6f7;
+  font-size: 24px;
+  font-family: "Proxima Nova B", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* line 1, ../Hilel  Basic homework/Lesson 14/scss/_find-contact.scss */
+.find-contact {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* line 6, ../Hilel  Basic homework/Lesson 14/scss/_find-contact.scss */
+.find-contact-img {
+  background-image: url(/img/bigstock-Football.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 14, ../Hilel  Basic homework/Lesson 14/scss/_find-contact.scss */
+.find-contact-number-container {
+  top: 211px;
+  right: -84px;
+}
+
+/* line 19, ../Hilel  Basic homework/Lesson 14/scss/_find-contact.scss */
+.find-contact-block {
+  padding-top: 255px;
+  padding-bottom: 110px;
+  padding-right: 125px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 1, ../Hilel  Basic homework/Lesson 14/scss/_work-it.scss */
+.work-it {
+  display: flex;
+}
+
+/* line 5, ../Hilel  Basic homework/Lesson 14/scss/_work-it.scss */
+.work-it-img {
+  background-image: url(/img/football-players.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 12, ../Hilel  Basic homework/Lesson 14/scss/_work-it.scss */
+.work-it-block {
+  padding-top: 255px;
+  padding-bottom: 110px;
+  padding-left: 125px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 1, ../Hilel  Basic homework/Lesson 14/scss/_footer.scss */
+.download-app {
+  background-image: url(/img/footer-img.png);
+  background-color: #0a0e34;
+  padding-top: 240px;
+}
+
+/* line 7, ../Hilel  Basic homework/Lesson 14/scss/_footer.scss */
+.download-app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+/* line 14, ../Hilel  Basic homework/Lesson 14/scss/_footer.scss */
+.download-app-caption-container {
+  margin-left: 35px;
+}
+
+/* line 18, ../Hilel  Basic homework/Lesson 14/scss/_footer.scss */
+.download-app-caption-1 {
+  color: #ffffff;
+  font-family: "Proxima Nova";
+  font-size: 90px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* line 26, ../Hilel  Basic homework/Lesson 14/scss/_footer.scss */
+.download-app-caption-2 {
+  color: #a496ca;
+  font-size: 36px;
+  font-family: "Proxima Nova";
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* line 34, ../Hilel  Basic homework/Lesson 14/scss/_footer.scss */
+.download-app-logo {
+  background-image: url(/img/Artwork.png);
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 137px;
+}
+
+/* line 41, ../Hilel  Basic homework/Lesson 14/scss/_footer.scss */
+.app-link-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 47, ../Hilel  Basic homework/Lesson 14/scss/_footer.scss */
+.footer-bottom {
+  margin-top: 195px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: rgba(10, 14, 52, 0.6);
+}
+
+/* line 54, ../Hilel  Basic homework/Lesson 14/scss/_footer.scss */
+.footer-container {
+  max-width: 1755px;
+  padding: 0 55px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 63, ../Hilel  Basic homework/Lesson 14/scss/_footer.scss */
+.social-networks {
+  display: flex;
+  justify-content: center;
+  margin-left: 86px;
+  align-items: center;
+}
+
+/* line 70, ../Hilel  Basic homework/Lesson 14/scss/_footer.scss */
+.social-item {
+  margin-left: 40px;
+}
+
+/* line 74, ../Hilel  Basic homework/Lesson 14/scss/_footer.scss */
+.facebook {
+  background: url(/img/facebook1.png);
+  width: 17px;
+  height: 31px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 83, ../Hilel  Basic homework/Lesson 14/scss/_footer.scss */
+.twitter {
+  background: url(/img/twitter.png);
+  width: 29px;
+  height: 25px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 92, ../Hilel  Basic homework/Lesson 14/scss/_footer.scss */
+.instagram {
+  background: url(/img/instagram.png);
+  width: 27px;
+  height: 27px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 101, ../Hilel  Basic homework/Lesson 14/scss/_footer.scss */
+.contact-us {
+  color: #ffffff;
+  font-family: "Proxima Nova";
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+@media (max-width: 1550px) {
+  /* line 16, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .container {
+    margin: 0 auto;
+    padding: 0px 7px;
+  }
+  /* line 21, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .header {
+    padding-top: 50px;
+    padding-bottom: 90px;
+  }
+  /* line 26, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .header-bottom {
+    padding-bottom: 0px;
+  }
+  /* line 30, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .header-main-caption-1 h1, .header-main-caption-2 h1 {
+    font-size: 64px;
+  }
+  /* line 34, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .header-main-caption-1 h1 {
+    margin-left: 15%;
+  }
+  /* line 38, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .header-main-caption-2 h1 {
+    padding-left: 168px;
+    width: 60%;
+  }
+  /* line 43, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .header-main-menu {
+    margin-top: 164px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 125px;
+  }
+  /* line 51, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .header-menu-item:first-child {
+    margin-left: -40px;
+  }
+  /* line 55, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .header-menu-item {
+    padding-left: 34px;
+    margin-left: 14px;
+  }
+  /* line 60, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .header-main-caption-1 h1::before {
+    top: -103px;
+    right: 54px;
+  }
+  /* line 65, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .athlets .connection-image {
+    width: 419px;
+    height: 664px;
+    top: 94px;
+    right: 15px;
+    background-size: contain;
+  }
+  /* line 73, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .athlets .connection-line {
+    top: 105px;
+    right: 70px;
+  }
+  /* line 78, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .athlets .connection-plus1 {
+    top: 98px;
+    right: 309px;
+  }
+  /* line 83, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .athlets .connection-plus2 {
+    right: 292px;
+    top: 115px;
+  }
+  /* line 88, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .athlets .connection-item-2-text {
+    padding-right: 20px;
+  }
+  /* line 92, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .athlets .collaboration-item-2-text {
+    padding-right: 20px;
+  }
+  /* line 96, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .athlets .growth-item-2-text {
+    padding-right: 20px;
+  }
+  /* line 100, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .players .connection-image {
+    width: 638px;
+    height: 681px;
+    top: 46px;
+    right: -601px;
+    background-size: contain;
+  }
+  /* line 108, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .players .connection-line {
+    top: 285px;
+    right: -349px;
+  }
+  /* line 113, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .players .connection-item-2-text, .collaboration-item-2-text, .growth-item-2-text {
+    padding-left: 20px;
+  }
+  /* line 118, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .be-active, .find-contact, .work-it {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 123, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .img-container {
+    width: 100%;
+    height: 511px;
+  }
+  /* line 128, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .be-active-container, .find-contact-block, .work-it-block {
+    width: 100%;
+    padding-top: 63px;
+    padding-left: 57px;
+  }
+  /* line 134, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .be-active-number-container, .work-it-number-container {
+    top: -102px;
+    left: 61px;
+  }
+  /* line 139, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .find-contact-number-container {
+    top: -102px;
+    left: 61px;
+  }
+  /* line 144, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .download-app {
+    padding-top: 130px;
+  }
+  /* line 148, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .download-app-container {
+    flex-direction: column;
+  }
+  /* line 152, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .download-app-logo {
+    margin-bottom: 76px;
+  }
+  /* line 156, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .footer-bottom {
+    padding-top: 21px;
+    padding-bottom: 21px;
+    margin-top: 132px;
+  }
+  /* line 162, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .footer-container {
+    justify-content: center;
+  }
+  /* line 166, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .social-networks {
+    margin-left: 4px;
+  }
+  /* line 170, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .footer-logo {
+    display: none;
+  }
+  /* line 174, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .contact-us {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 180, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  body {
+    min-width: 320px;
+  }
+  /* line 184, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 190, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .athlets {
+    display: none;
+  }
+  /* line 194, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .players {
+    display: none;
+  }
+  /* line 198, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .header {
+    padding-bottom: 20px;
+  }
+  /* line 202, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .header-top {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 130px;
+  }
+  /* line 208, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .header-top__item1 {
+    display: none;
+  }
+  /* line 212, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .header-top__item2 {
+    width: 137px;
+    height: 24px;
+    background-size: contain;
+  }
+  /* line 218, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .header-main-caption-1, .header-main-caption-2 {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1.6px;
+  }
+  /* line 225, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .header-main-caption-1 h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    margin-right: 17%;
+    margin-left: 0;
+  }
+  /* line 232, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .header-main-caption-2 h1 {
+    margin-left: 17%;
+    padding-left: 0px;
+    font-size: 32px;
+    margin-right: 0;
+    width: 256px;
+  }
+  /* line 240, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .header-main-caption-1 h1::before {
+    width: 142px;
+    height: 176px;
+    top: -12px;
+    right: 11px;
+    background-size: contain;
+  }
+  /* line 248, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .header-main-menu {
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  /* line 253, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .header-menu-item:first-child {
+    margin-left: 0px;
+  }
+  /* line 257, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .header-menu-item {
+    font-size: 12px;
+    padding-left: 6px;
+  }
+  /* line 262, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .app-link__appstore, .app-link__playmarket {
+    width: 142px;
+    height: 39px;
+  }
+  /* line 267, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .app-icon-1 {
+    width: 15px;
+    background-size: contain;
+    height: 16px;
+    margin-right: 14px;
+    margin-left: 22px;
+  }
+  /* line 275, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .app-icon-2 {
+    width: 15px;
+    background-size: contain;
+    height: 16px;
+    margin-right: 14px;
+    margin-left: 22px;
+  }
+  /* line 283, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .app-link__appstore, .app-text-1, .app-text-2 {
+    font-size: 8px;
+  }
+  /* line 287, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .app-link__appstore, .app-link__playmarket {
+    margin-left: 13px;
+  }
+  /* line 291, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .athlets-320px, .players-320px {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 296, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .athlets-320px .fotorama {
+    display: flex;
+    justify-content: center;
+  }
+  /* line 301, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .players-320px .fotorama {
+    display: flex;
+    justify-content: center;
+  }
+  /* line 306, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .athlets-caption, .players-caption {
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 70px;
+    color: #e7e7e7;
+    margin-top: 0px;
+    font-size: 50px;
+    padding-left: 15px;
+  }
+  /* line 316, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .images-container {
+    margin-top: 25px;
+    margin-bottom: 245px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 335px;
+  }
+  /* line 325, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .images-container__image1 {
+    background-image: url(/img/footballer.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 192px;
+    height: 281px;
+    position: absolute;
+    top: 75px;
+    left: 63px;
+    z-index: 1;
+  }
+  /* line 337, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .players-320px .images-container__image1 {
+    background-image: url(/img/basketbolist.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 248px;
+    height: 281px;
+    position: absolute;
+    top: 75px;
+    left: 2px;
+    z-index: 1;
+  }
+  /* line 349, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .images-container__line {
+    background-image: url(/img/connection-line.svg);
+    background-repeat: no-repeat;
+    width: 185px;
+    height: 200px;
+    position: absolute;
+    top: 90px;
+    left: 55px;
+    background-size: contain;
+  }
+  /* line 360, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .fotorama-container {
+    background-color: #f5f4f9;
+  }
+  /* line 364, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .collaboration-item-2, .connection-item-2, .growth-item-2 {
+    width: 100%;
+    padding: 0 20px;
+    max-width: 400px;
+    box-sizing: border-box;
+  }
+  /* line 371, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .athlets-320px .fotorama__html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* line 377, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .players-320px .fotorama__html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* line 383, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .caption-container {
+    font-size: 28px;
+  }
+  /* line 387, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .section-text {
+    font-size: 15px;
+  }
+  /* line 391, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .section-caption-container {
+    align-items: center;
+  }
+  /* line 395, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .athlets-320px .number {
+    color: #000000;
+    font-family: "Proxima Nova ExtraBold";
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  /* line 403, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .players-320px .number {
+    color: #000000;
+    font-family: "Proxima Nova ExtraBold";
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  /* line 411, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .img-container {
+    height: 351px;
+  }
+  /* line 415, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .be-active-container, .find-contact-block, .work-it-block {
+    padding-top: 35px;
+    padding-bottom: 50px;
+  }
+  /* line 420, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .be-active-caption, .find-contact-caption, .work-it-caption {
+    font-size: 28px;
+  }
+  /* line 424, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .work-it-number-container, .be-active-number-container, .find-contact-number-container {
+    width: 70px;
+    height: 70px;
+    top: -44px;
+  }
+  /* line 430, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .be-active-number__number, .find-contact-number__number, .work-it-number__number {
+    font-size: 14px;
+  }
+  /* line 434, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .be-active-text, .find-contact-text, .work-it-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 400px;
+  }
+  /* line 442, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .download-app {
+    padding-top: 90px;
+  }
+  /* line 446, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .download-app-caption-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0px;
+  }
+  /* line 453, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .download-app-logo {
+    width: 73px;
+    height: 78px;
+    background-size: contain;
+  }
+  /* line 459, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .download-app-caption-1 {
+    font-size: 34px;
+  }
+  /* line 463, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .download-app-caption-2 {
+    font-size: 15px;
+  }
+  /* line 467, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .download-app-container {
+    margin-bottom: 80px;
+  }
+  /* line 471, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .facebook {
+    width: 10px;
+    height: 18px;
+    background-size: contain;
+  }
+  /* line 477, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .twitter {
+    width: 18px;
+    height: 15px;
+    background-size: contain;
+  }
+  /* line 483, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .instagram {
+    width: 17px;
+    height: 17px;
+    background-size: contain;
+  }
+  /* line 489, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
+  .social-networks {
+    margin-left: -27px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
