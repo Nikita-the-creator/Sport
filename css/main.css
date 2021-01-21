@@ -23,7 +23,7 @@ body {
 
 /* line 20, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
 .header-background {
-  background-image: url(/img/header-background.jpg);
+  background-image: url(../img/header-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -38,7 +38,7 @@ body {
 
 /* line 34, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
 .logo {
-  background: url(/img/logo.png) no-repeat center;
+  background: url(../img/logo.png) no-repeat center;
 }
 
 /* line 38, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
@@ -81,7 +81,7 @@ body {
   position: absolute;
   width: 254px;
   height: 317px;
-  background-image: url(/img/line-media1730-athlets.svg);
+  background-image: url(../img/line-media1730-athlets.svg);
   background-repeat: no-repeat;
   top: -93px;
   right: 0px;
@@ -146,7 +146,7 @@ body {
 
 /* line 132, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
 .app-icon-1 {
-  background-image: url(/img/Icon-Apple.png);
+  background-image: url(../img/Icon-Apple.png);
   background-repeat: no-repeat;
   width: 33px;
   height: 37px;
@@ -156,7 +156,7 @@ body {
 
 /* line 141, ../Hilel  Basic homework/Lesson 14/scss/_header.scss */
 .app-icon-2 {
-  background-image: url(/img/Icon-Google_Play.png);
+  background-image: url(../img/Icon-Google_Play.png);
   background-repeat: no-repeat;
   width: 33px;
   height: 37px;
@@ -197,7 +197,7 @@ body {
 
 /* line 10, ../Hilel  Basic homework/Lesson 14/scss/_athlets.scss */
 .connection-image {
-  background-image: url(/img/footballer.png);
+  background-image: url(../img/footballer.png);
   background-repeat: no-repeat;
   width: 602px;
   height: 950px;
@@ -209,7 +209,7 @@ body {
 
 /* line 21, ../Hilel  Basic homework/Lesson 14/scss/_athlets.scss */
 .connection-line {
-  background-image: url(/img/connection-line.svg);
+  background-image: url(../img/connection-line.svg);
   background-repeat: no-repeat;
   width: 582px;
   height: 668px;
@@ -220,7 +220,7 @@ body {
 
 /* line 31, ../Hilel  Basic homework/Lesson 14/scss/_athlets.scss */
 .connection-plus1 {
-  background-image: url(/img/plus1.png);
+  background-image: url(../img/plus1.png);
   background-repeat: no-repeat;
   width: 15px;
   height: 15px;
@@ -231,7 +231,7 @@ body {
 
 /* line 41, ../Hilel  Basic homework/Lesson 14/scss/_athlets.scss */
 .connection-plus2 {
-  background-image: url(/img/plus2.png);
+  background-image: url(../img/plus2.png);
   background-repeat: no-repeat;
   width: 15px;
   height: 15px;
@@ -370,7 +370,7 @@ body {
 
 /* line 18, ../Hilel  Basic homework/Lesson 14/scss/_players.scss */
 .players .connection-image {
-  background-image: url(/img/basketbolist.png);
+  background-image: url(../img/basketbolist.png);
   top: -44px;
   width: 991px;
   height: 815px;
@@ -391,7 +391,7 @@ body {
 
 /* line 36, ../Hilel  Basic homework/Lesson 14/scss/_players.scss */
 .connection-line1 {
-  background-image: url(/img/connection-line.svg);
+  background-image: url(../img/connection-line.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 279px;
@@ -403,7 +403,7 @@ body {
 
 /* line 47, ../Hilel  Basic homework/Lesson 14/scss/_players.scss */
 .connection-line2 {
-  background-image: url(/img/connection-line.svg);
+  background-image: url(../img/connection-line.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 279px;
@@ -430,7 +430,7 @@ body {
 
 /* line 5, ../Hilel  Basic homework/Lesson 14/scss/_be-active.scss */
 .be-active-img {
-  background-image: url(/img/shutterstock.png);
+  background-image: url(../img/shutterstock.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -526,7 +526,7 @@ body {
 
 /* line 6, ../Hilel  Basic homework/Lesson 14/scss/_find-contact.scss */
 .find-contact-img {
-  background-image: url(/img/bigstock-Football.png);
+  background-image: url(../img/bigstock-Football.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -554,7 +554,7 @@ body {
 
 /* line 5, ../Hilel  Basic homework/Lesson 14/scss/_work-it.scss */
 .work-it-img {
-  background-image: url(/img/football-players.png);
+  background-image: url(../img/football-players.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -571,7 +571,7 @@ body {
 
 /* line 1, ../Hilel  Basic homework/Lesson 14/scss/_footer.scss */
 .download-app {
-  background-image: url(/img/footer-img.png);
+  background-image: url(../img/footer-img.png);
   background-color: #0a0e34;
   padding-top: 240px;
 }
@@ -609,7 +609,7 @@ body {
 
 /* line 34, ../Hilel  Basic homework/Lesson 14/scss/_footer.scss */
 .download-app-logo {
-  background-image: url(/img/Artwork.png);
+  background-image: url(../img/Artwork.png);
   background-repeat: no-repeat;
   width: 130px;
   height: 137px;
@@ -655,7 +655,7 @@ body {
 
 /* line 74, ../Hilel  Basic homework/Lesson 14/scss/_footer.scss */
 .facebook {
-  background: url(/img/facebook1.png);
+  background: url(../img/facebook1.png);
   width: 17px;
   height: 31px;
   background-size: contain;
@@ -675,7 +675,7 @@ body {
 
 /* line 92, ../Hilel  Basic homework/Lesson 14/scss/_footer.scss */
 .instagram {
-  background: url(/img/instagram.png);
+  background: url(../img/instagram.png);
   width: 27px;
   height: 27px;
   background-size: contain;
@@ -1004,7 +1004,7 @@ body {
   }
   /* line 325, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
   .images-container__image1 {
-    background-image: url(/img/footballer.png);
+    background-image: url(../img/footballer.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 192px;
@@ -1016,7 +1016,7 @@ body {
   }
   /* line 337, ../Hilel  Basic homework/Lesson 14/scss/main.scss */
   .players-320px .images-container__image1 {
-    background-image: url(/img/basketbolist.png);
+    background-image: url(../img/basketbolist.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 248px;

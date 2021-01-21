@@ -7,8 +7,17 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
+    "git": "^0.1.5",
     "reset.css": "^2.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikita-the-creator/Sport.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nikita-the-creator/Sport/issues"
+  },
+  "homepage": "https://github.com/Nikita-the-creator/Sport#readme",
+  "description": ""
 }
